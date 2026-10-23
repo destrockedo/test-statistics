@@ -13,7 +13,7 @@ public class teststats {
             highest = Math.max(highest, numList[i]);
             lowest = Math.min(lowest, numList[i]);
         }
-        //avg = sum of num / lenth of list
+        //avg = sum of num / length of list
         double average = (double) sum / numList.length;
         System.out.println("Aver: " + average);
         System.out.println("High: " + highest);
